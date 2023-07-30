@@ -5,7 +5,6 @@
 
 int main(void)
 {
-    // IT FUCKING WORKSS !!
     int number = get_int("Number: ");
 
     int digits = floor(log10(abs(number))) + 1;
